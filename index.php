@@ -62,37 +62,80 @@
                 <div class="chart_title">
                     <h2>expenses chart</h2>
                 </div>
-                <div class="chart_graphics">
-
-                </div>
-                <div class="chart_categories">
-                    <div class="chart_category">
-                        <div class="chart_bullet"></div>
-                        <p class="chart_category_title">
-                            text
-                        </p>
+                <div class="chart_focus">
+                    <div class="chart_graphics">
                     </div>
-                    <div class="chart_category">
-                        <div class="chart_bullet"></div>
-                        <p class="chart_category_title">
-                            text
-                        </p>
-                    </div>
-                    <div class="chart_category">
-                        <div class="chart_bullet"></div>
-                        <p class="chart_category_title">
-                            text
-                        </p>
-                    </div>
-                    <div class="chart_category">
-                        <div class="chart_bullet"></div>
-                        <p class="chart_category_title">
-                            text
-                        </p>
+                    <div class="chart_categories">
+                        <div class="chart_category">
+                            <div class="chart_bullet"></div>
+                            <p class="chart_category_title">
+                                food
+                            </p>
+                        </div>
+                        <div class="chart_category">
+                            <div class="chart_bullet"></div>
+                            <p class="chart_category_title">
+                                bills
+                            </p>
+                        </div>
+                        <div class="chart_category">
+                            <div class="chart_bullet"></div>
+                            <p class="chart_category_title">
+                                transport
+                            </p>
+                        </div>
+                        <div class="chart_category">
+                            <div class="chart_bullet"></div>
+                            <p class="chart_category_title">
+                                other
+                            </p>
+                        </div>
                     </div>
                 </div>
             </article>
-            <article class="transactions"></article>
+            <article class="transactions">
+                <div class="transactions_title">
+                    <h2>recent transactions</h2>
+                </div>
+                <div class="transactions_table_wrapper">
+                    <table class="transactions_table">
+                        <thead>
+                            <tr>
+                                <th scope="col">date</th>
+                                <th scope="col">category</th>
+                                <th scope="col">description</th>
+                                <th scope="col">amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10/30/25</td>
+                                <td>food</td>
+                                <td>groceries</td>
+                                <td><span class="currency"></span> 120</td>
+                            </tr>
+                            <tr>
+                                <td>10/30/25</td>
+                                <td>transport</td>
+                                <td>uber</td>
+                                <td><span class="currency"></span> 27</td>
+                            </tr>
+                            <tr>
+                                <td>10/30/25</td>
+                                <td>other</td>
+                                <td>shirt</td>
+                                <td><span class="currency"></span> 30</td>
+                            </tr>
+                            <tr>
+                                <td>10/30/25</td>
+                                <td>bills</td>
+                                <td>electric</td>
+                                <td><span class="currency"></span> 220</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
         </section>
     </main>
 </body>
